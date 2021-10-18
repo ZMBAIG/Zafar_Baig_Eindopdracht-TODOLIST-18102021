@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./api-client.js"></script>
+    <script defer src="./script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Zafar-Eindopdracht-ToDoList</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>WINC TODO LIST</h1>
+      <p class="visitapp">
+        TO RUN THIS APP VISIT
+        <a
+          href="https://github.com/WincAcademy/local_api"
+          alt="localapi"
+          target="_blank"
+          >LocalRESTAPI</a
+        >
+      </p>
+    </header>
+
+    <main class="main-container">
+      <form class="todolist-form">
+        <input
+          type="text"
+          class="todolist-input"
+          placeholder="What Should I Do Today?"
+        />
+        <span class="add-btn">Add</span>
+      </form>
+
+      <!--==========Here comes li with checkbox and delete buttons============-->
+      <div class="todolist-container">
+        <ul class="item-list"></ul>
+      </div>
+    </main>
+    <footer>
+      <h2>
+        WINC ACADEMYⒸ
+        <span
+          ><a class="footer_text" href="mailto:wincacademy@example.com"
+            >wincacademy@example.com</a
+          ></span
+        >
+      </h2>
+    </footer>
+  </body>
+</html>
